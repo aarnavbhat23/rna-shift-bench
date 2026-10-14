@@ -1,0 +1,10 @@
+{
+  "oracle": "ViennaRNA",
+  "version": "2.7.2",
+  "temperature_celsius": 37,
+  "seed": 714,
+  "families": 3000,
+  "sha256": "9c9d1d33e072fc9dc8bc2878f300fd7cfabc51a4acafcea154e1d7a432ac2811",
+  "provenance": "Computational labels; not experimental RNA measurements.",
+  "split_rule": "Mutation relatives share a parent-family split; 600 shifted families are never used for fitting."
+}

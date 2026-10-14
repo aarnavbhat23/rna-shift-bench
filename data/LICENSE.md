@@ -1,0 +1,1 @@
+The generated sequence and oracle-label table is dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). The labels were calculated with ViennaRNA 2.7.2, whose separately installed software retains its own license and attribution.

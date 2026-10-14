@@ -1,0 +1,62 @@
+{
+  "records": 18000,
+  "families": 3000,
+  "device": "mps",
+  "parameters_per_transformer": 88066,
+  "selected_epochs": [
+    8,
+    4
+  ],
+  "elapsed_seconds": 89.98649597167969,
+  "calibration": "90% parent-family simultaneous split conformal; exchangeability required",
+  "evaluations": {
+    "dinucleotide_boosting/test": {
+      "rows": 1440,
+      "energy_rmse_kcal_mol": 2.9118617723514775,
+      "paired_fraction_mae": 0.061509425183406866,
+      "row_coverage": 0.9881944444444445,
+      "family_coverage": 0.9375,
+      "interval_half_width_kcal_mol": 7.643572991255834
+    },
+    "dinucleotide_boosting/gc_shift": {
+      "rows": 1800,
+      "energy_rmse_kcal_mol": 5.7026698758527585,
+      "paired_fraction_mae": 0.08815115360361926,
+      "row_coverage": 0.8466666666666667,
+      "family_coverage": 0.6933333333333334,
+      "interval_half_width_kcal_mol": 7.643572991255834
+    },
+    "dinucleotide_boosting/length_shift": {
+      "rows": 1800,
+      "energy_rmse_kcal_mol": 4.280157325519675,
+      "paired_fraction_mae": 0.04394242023974705,
+      "row_coverage": 0.9177777777777778,
+      "family_coverage": 0.72,
+      "interval_half_width_kcal_mol": 7.643572991255834
+    },
+    "transformer_ensemble/test": {
+      "rows": 1440,
+      "energy_rmse_kcal_mol": 2.9229507713154925,
+      "paired_fraction_mae": 0.062015436589717865,
+      "row_coverage": 0.9895833333333334,
+      "family_coverage": 0.9416666666666667,
+      "interval_half_width_kcal_mol": 7.4767374992370605
+    },
+    "transformer_ensemble/gc_shift": {
+      "rows": 1800,
+      "energy_rmse_kcal_mol": 3.6200194719323484,
+      "paired_fraction_mae": 0.06843563169240952,
+      "row_coverage": 0.9433333333333334,
+      "family_coverage": 0.8166666666666667,
+      "interval_half_width_kcal_mol": 7.4767374992370605
+    },
+    "transformer_ensemble/length_shift": {
+      "rows": 1800,
+      "energy_rmse_kcal_mol": 3.8805094768808983,
+      "paired_fraction_mae": 0.04114484414458275,
+      "row_coverage": 0.9466666666666667,
+      "family_coverage": 0.81,
+      "interval_half_width_kcal_mol": 7.4767374992370605
+    }
+  }
+}
