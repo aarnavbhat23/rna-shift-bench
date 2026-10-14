@@ -1,5 +1,7 @@
 # RNA Shift Bench
 
+[![Reproduction checks](https://github.com/aarnavbhat23/rna-shift-bench/actions/workflows/reproduce.yml/badge.svg)](https://github.com/aarnavbhat23/rna-shift-bench/actions/workflows/reproduce.yml)
+
 How much should you trust an RNA folding surrogate outside its training distribution?
 
 This repository generates **18,000 RNA sequences in 3,000 mutation families**, obtains minimum-free-energy labels from ViennaRNA 2.7.2, and trains a two-seed transformer ensemble from scratch. It evaluates entire held-out families, then changes GC content and sequence length. A dinucleotide tree baseline is included.
