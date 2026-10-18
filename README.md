@@ -55,4 +55,4 @@ The oracle is [ViennaRNA](https://github.com/ViennaRNA/ViennaRNA), described by 
 
 A serious next test would use experimentally measured structure or an independently sourced RNA family collection, and compare several seed splits. This first release does neither. The supplied findings should be read as a controlled oracle experiment.
 
-Built with AI assistance. All numbers above come from the recorded runs, not generated example outputs. Contributions that reproduce results or identify a failure are welcome; there is no independent review or adoption claim.
+All numbers above come from the recorded runs, not generated example outputs. Contributions that reproduce results or identify a failure are welcome; there is no independent review or adoption claim.
